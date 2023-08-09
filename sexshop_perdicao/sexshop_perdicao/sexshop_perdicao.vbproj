@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C573423B-2BB1-42E2-B322-5BAA0131CDB8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>sexshop_perdicao.My.MyApplication</StartupObject>
+    <RootNamespace>sexshop_perdicao</RootNamespace>
+    <AssemblyName>sexshop_perdicao</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>sexshop_perdicao.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>sexshop_perdicao.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>sexshop_ico.ico.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frm_loja.Designer.vb">
+      <DependentUpon>frm_loja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_loja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_cadastro.Designer.vb">
+      <DependentUpon>frm_cadastro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_cadastro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_cadastro_produtos.Designer.vb">
+      <DependentUpon>frm_cadastro_produtos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_cadastro_produtos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_login.Designer.vb">
+      <DependentUpon>frm_login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_relat_clientes.Designer.vb">
+      <DependentUpon>frm_relat_clientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_relat_clientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_visualizar.Designer.vb">
+      <DependentUpon>frm_visualizar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_visualizar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="sexshopdbDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sexshopdbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frm_cadastro.resx">
+      <DependentUpon>frm_cadastro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_cadastro_produtos.resx">
+      <DependentUpon>frm_cadastro_produtos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_login.resx">
+      <DependentUpon>frm_login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_loja.resx">
+      <DependentUpon>frm_loja.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_relat_clientes.resx">
+      <DependentUpon>frm_relat_clientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_visualizar.resx">
+      <DependentUpon>frm_visualizar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="sexshopdbDataSet.xsc">
+      <DependentUpon>sexshopdbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="sexshopdbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sexshopdbDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sexshopdbDataSet.xss">
+      <DependentUpon>sexshopdbDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\imagens\sexshop_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\upload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\lub.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{B691E011-1797-432E-907A-4D8C69339129}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\lub.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\save-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\Industry-Trash-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\imagens\sexshop_logo_transparente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\Add-Cart-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\Full-Cart-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\sexshop_ico.ico.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\imagens\sexshop_logo_coracao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\exit_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\document-icon.png" />
+    <Content Include="sexshopdb.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sexshop_ico.ico.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

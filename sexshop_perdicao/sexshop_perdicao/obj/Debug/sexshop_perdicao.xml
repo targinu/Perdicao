@@ -1,0 +1,216 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+sexshop_perdicao
+</name>
+</assembly>
+<members>
+<member name="T:sexshop_perdicao.sexshopdbDataSet.tb_cadastroDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSet.tb_carrinhoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSet.tb_cepDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSet.tb_clientesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSet.tb_produtosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSet.tb_totalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSet.tb_cadastroRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSet.tb_carrinhoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSet.tb_cepRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSet.tb_clientesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSet.tb_produtosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSet.tb_totalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSet.tb_cadastroRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSet.tb_carrinhoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSet.tb_cepRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSet.tb_clientesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSet.tb_produtosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSet.tb_totalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSetTableAdapters.tb_cadastroTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSetTableAdapters.tb_carrinhoTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSetTableAdapters.tb_cepTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSetTableAdapters.tb_clientesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSetTableAdapters.tb_produtosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSetTableAdapters.tb_totalTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:sexshop_perdicao.sexshopdbDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(sexshop_perdicao.sexshopdbDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:sexshop_perdicao.sexshopdbDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(sexshop_perdicao.sexshopdbDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:sexshop_perdicao.sexshopdbDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(sexshop_perdicao.sexshopdbDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:sexshop_perdicao.sexshopdbDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:sexshop_perdicao.sexshopdbDataSetTableAdapters.TableAdapterManager.UpdateAll(sexshop_perdicao.sexshopdbDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:sexshop_perdicao.sexshopdbDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:sexshop_perdicao.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:sexshop_perdicao.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:sexshop_perdicao.My.Resources.Resources.Add_Cart_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sexshop_perdicao.My.Resources.Resources.document_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sexshop_perdicao.My.Resources.Resources.exit_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sexshop_perdicao.My.Resources.Resources.Full_Cart_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sexshop_perdicao.My.Resources.Resources.Industry_Trash_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sexshop_perdicao.My.Resources.Resources.lub1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sexshop_perdicao.My.Resources.Resources.save">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sexshop_perdicao.My.Resources.Resources.save_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sexshop_perdicao.My.Resources.Resources.save1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sexshop_perdicao.My.Resources.Resources.save2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sexshop_perdicao.My.Resources.Resources.sexshop_ico_ico">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sexshop_perdicao.My.Resources.Resources.sexshop_logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sexshop_perdicao.My.Resources.Resources.sexshop_logo_coracao">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sexshop_perdicao.My.Resources.Resources.sexshop_logo_coracao1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:sexshop_perdicao.My.Resources.Resources.sexshop_logo_transparente">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:sexshop_perdicao.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
